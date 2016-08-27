@@ -1,5 +1,9 @@
 ﻿# IPsec VPN Server Auto Setup Scripts &nbsp;[![Build Status](https://static.ls20.com/travis-ci/setup-ipsec-vpn.svg)](https://travis-ci.org/hwdsl2/setup-ipsec-vpn)
 
+## 一个小坑
+
+最后需要sudo service l2tpd restart一下，不sudo不行，还是不懂Ubuntu的service。
+
 *Read this in other languages: [English](README.md), [简体中文](README-zh.md).*
 
 Set up your own IPsec VPN server in just a few minutes, with both IPsec/L2TP and Cisco IPsec on Ubuntu, Debian and CentOS. All you need to do is provide your own VPN credentials, and let the scripts handle the rest.
